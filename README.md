@@ -10,7 +10,7 @@ Scripts for estimating agricultural water productivity to support monitoring SDG
 
 **Cite as:** 
 <br/>Yalew, S., Dehati, S., Mul, M., 2023 Scripts for calculating agricultural water productivity using WaPOR and Aquastat data. Standardized protocol for land and water productivity analyses using WaPOR (v1.0).
-<br/>If you encounter problems, do let us know @wateraccounting _project@un-ihe.org
+<br/>If you encounter problems, do let us know @wateraccounting_project@un-ihe.org
 
 
 ## Objective
