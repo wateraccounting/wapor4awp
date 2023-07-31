@@ -93,7 +93,8 @@ The final step is to calculate the change (c) and trend (t) in Awp using the fol
 
 ## Acknowledgements
 This dashboard was developed in the context of the “Monitoring land and water productivity by Remote Sensing (WaPOR phase 2) project” funded by the Ministry of Foreign Affairs of the Netherlands.
-References
+
+## References
 Brouwer, C. and Heibloem, M., 1986. Irrigation water management: irrigation water needs. FAO Training manual, 3. https://www.fao.org/3/s2022e/s2022e00.htm#Contents 
 
 Chukalla, A.D., Krol, M.S. and Hoekstra, A.Y., 2015. Green and blue water footprint reduction in irrigated agriculture: effect of irrigation techniques, irrigation strategies and mulching. Hydrology and earth system sciences, 19(12), pp.4877-4891.
