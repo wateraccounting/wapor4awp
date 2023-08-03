@@ -93,7 +93,7 @@ The final step is to calculate the change (c) and trend (t) in Awp using the fol
 
 ## Google Colab Notebooks
 To determine a country's Awp, the process involves three distinct modules. Each module is implemented through a Colab notebook containing specific scripts.
-Module 0 focuses on acquiring WaPOR data related to actual evapotranspiration (AETI), precipitation (PCP), land cover map (LCC), and gross biomass water productivity (GBWP). This data serves as the foundational information for subsequent calculations.
+Module 0 focuses on dowmloading WaPOR data; actual evapotranspiration (AETI), precipitation (PCP), land cover map (LCC), and gross biomass water productivity (GBWP). This data serves as the foundational information for subsequent calculations.
 Module 1 handles the pre-processing of the acquired data to ensure uniform spatial resolution. Additionally, this module involves the computation of PE and ET blue.
 Finally, in Module 2, involves calculating the volume of ET blue and Awp for multiple years. This final computation allows us to determine the country's Awp over the specified time frame.
 
