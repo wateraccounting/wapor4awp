@@ -92,7 +92,7 @@ The final step is to calculate the change (c) and trend (t) in Awp using the fol
 〖tA〗_wp=  (A_(wp,t)-A_(wp,t-1))/A_(wp,t-1) *100  #start to base year (2015)				(8)
 
 ## Google Colab Notebooks
-To determine a country's Awp, three modules was developed through a Colab notebook containing specific scripts.
+To determine a country's Awp, three modules was developed through Colab notebook containing specific scripts.
 
 Module 0 focuses on downloading WaPOR data on actual evapotranspiration (AETI), precipitation (PCP), land cover map (LCC), and gross biomass water productivity (GBWP). This data serves as the foundational information for subsequent calculations.
 
