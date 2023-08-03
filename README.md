@@ -100,7 +100,7 @@ Module 1 handles the pre-processing of the acquired data to ensure uniform spati
 
 Finally, in Module 2, involves calculating the volume of ET blue and Awp for multiple years. This final computation allows us to determine the country's Awp over the specified time frame.
 
-A readme file has been added to the Country_based_Colab_WaPOR4Awp folder to describe how to use the google colab notebooks. 
+A README file is included in the "Country_based_Colab_WaPOR4Awp" folder to provide instructions on using the Google Colab notebooks.
 
 ## Acknowledgements
 This dashboard was developed in the context of the “Monitoring land and water productivity by Remote Sensing (WaPOR phase 2) project” funded by the Ministry of Foreign Affairs of the Netherlands.
