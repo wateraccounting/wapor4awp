@@ -77,15 +77,15 @@ Pe = max (0.6 * P – 10, 0), if P < 75 mm/month
 
 ETb or blue water use per annum (in mm/year) is then calculated at monthly timesteps and aggregated to annual values using the following formula:
 
-![title](Figures_equations/Eq_3.png)   				(4)
+![title](Figures_equations/Eq_3.png)   		     		(4)
 
 With ET being the actual evapotranspiration and interception from WaPOR. The final step is to aggregate ETb,y for the irrigated areas to compute the total water consumed (VETb) by irrigated agriculture:
 
-![title](Figures_equations/Eq_4.png)     				(5)
+![title](Figures_equations/Eq_4.png)     			  	(5)
 
 Awp can then be calculated by adapting equation 2 (by replacing Va with VETb):
 
-![title](Figures_equations/Eq_5.png)  					(6)
+![title](Figures_equations/Eq_5.png)  				      	(6)
 
 ## Change and trend in Awp
 The final step is to calculate the change (c) and trend (t) in Awp using the following formulas, based on FAO (2017):
