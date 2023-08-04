@@ -32,7 +32,7 @@ The data for computing this indicator is usually compiled by National Statistica
 ## Agricultural water use efficiency
 The equation to calculate water use efficiency in irrigated agriculture (Awe) is as follows (FAO, 2017):
 
-A_(we )=( 〖GVA〗_a  * (1-C_r ))/V_a  					          (2)
+![title](Figures_equations/Eq_2.png)   					        (2)
 
 With:
 
@@ -53,6 +53,8 @@ Land cover classification (LCC)	Level 1	250m	Annual
 
 ## An alternative approach for estimating Awe using remote sensing
 Whereas RS provides a lot of opportunities, it is not able to monitor the denominator of the Awe (equation 2) on agricultural water withdrawals (Va). However, RS can monitor the water consumption in irrigated agriculture (VETb) by monitoring the actual evapotranspiration. While the two are not the same, they are connected as can be seen in Figure 1. Actual evapotranspiration (ET) can come from two sources, rainfall and water withdrawal for irrigation, also called green and blue ET respectively (ETg and ETb) (Chukalla et al., 2015). Especially in large irrigation systems where irrigation water is reused many times, ETb and water withdrawals can approximate each other (Hellegers and van Halsema, 2020), in other cases the difference can be approximated using an irrigation efficiency coefficient. Using VETb, instead of Va, we decided to rename the indicator agricultural water productivity (Awp in USD/m3) to clearly distinguish between the two.
+
+![title](Figures_equations/Figure1.png) 
  
 Figure 1 Differences between irrigation withdrawals in relation to ETb (after Karimi et al., 2013)
 
@@ -61,6 +63,7 @@ There is another major distinction between Awe and Awp, whereby the analyses of 
 ## Methodology for estimating Awp
 An overview of the proposed workflow is presented in Figure 2. The numerator of equation 2 depicts the value derived from the water use (GVAa * (1-Cr)), the information to calculate this is derived from global databases such as AQUASTAT and the World Bank. The denominator, depicting the water use by agriculture (VETb) is estimated using the FAO WaPOR database and described in the following section.   
 
+ ![title](Figures_equations/Figure2.png) 
  
 Figure 2. Computation workflow; further described in the following sections, based on Safi, 2022
 
@@ -74,22 +77,22 @@ Pe = max (0.6 * P – 10, 0), if P < 75 mm/month
 
 ETb or blue water use per annum (in mm/year) is then calculated at monthly timesteps and aggregated to annual values using the following formula:
 
-〖ET〗_(b,y)=∑_(n=1)^12▒max(ET-P_e,0)  				(4)
+![title](Figures_equations/Eq_3.png)   				(4)
 
 With ET being the actual evapotranspiration and interception from WaPOR. The final step is to aggregate ETb,y for the irrigated areas to compute the total water consumed (VETb) by irrigated agriculture:
 
-V_ETb= ∑_(lcc=irr)▒〖ET〗_(b,y)    				(5)
+![title](Figures_equations/Eq_4.png)     				(5)
 
 Awp can then be calculated by adapting equation 2 (by replacing Va with VETb):
 
-A_(wp )=( 〖GVA〗_a  * (1-C_r ))/V_ETb  					(6)
+![title](Figures_equations/Eq_5.png)  					(6)
 
 ## Change and trend in Awp
 The final step is to calculate the change (c) and trend (t) in Awp using the following formulas, based on FAO (2017):
 
-〖cA〗_wp=  (A_(wp,t)-A_(wp,t-1))/A_(wp,t-1) *100 #year to year			(7)
+![title](Figures_equations/Eq_6.png)                   #year to year			(7)
 
-〖tA〗_wp=  (A_(wp,t)-A_(wp,t-1))/A_(wp,t-1) *100  #start to base year (2015)				(8)
+![title](Figures_equations/Eq_7.png)              #start to base year (2015)				(8)
 
 ## Google Colab Notebooks
 To determine a country's Awp, three modules was developed through Colab notebook containing specific scripts.
