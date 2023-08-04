@@ -1,5 +1,5 @@
 # WaPOR4Awp
-Scripts for estimating agricultural water productivity to support monitoring SDG indicator 6.4.1 using WaPOR data. The scripts consist of a Colab version for calculating Awp at country level and scripts to estimate Awp globally (current WaPOR version 2 is for Africa and MENA region). 
+Scripts for estimating agricultural water productivity (Awp) to support monitoring SDG indicator 6.4.1 using WaPOR data. The scripts consist of a Colab version for calculating Awp at country level and scripts to estimate Awp globally (current WaPOR version 2 is for Africa and MENA region). 
 
 ![title](/Graphical_abstract_2.jpg) 
 
