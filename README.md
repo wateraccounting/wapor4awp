@@ -81,18 +81,18 @@ ETb or blue water use per annum (in mm/year) is then calculated at monthly times
 
 With ET being the actual evapotranspiration and interception from WaPOR. The final step is to aggregate ETb,y for the irrigated areas to compute the total water consumed (VETb) by irrigated agriculture:
 
-![title](Figures_equations/Eq_4.png)     			  	(5)
+![title](Figures_equations/Eq_4.PNG)     			  	(5)
 
 Awp can then be calculated by adapting equation 2 (by replacing Va with VETb):
 
-![title](Figures_equations/Eq_5.png)  				      	(6)
+![title](Figures_equations/Eq_5.PNG)  				      	(6)
 
 ## Change and trend in Awp
 The final step is to calculate the change (c) and trend (t) in Awp using the following formulas, based on FAO (2017):
 
-![title](Figures_equations/Eq_6.png)                  #year to year			(7)
+![title](Figures_equations/Eq_6.PNG)                  #year to year			(7)
 
-![title](Figures_equations/Eq_7.png)              #start to base year (2015)				(8)
+![title](Figures_equations/Eq_7.PNG)                   #start to base year (2015)				(8)
 
 ## Google Colab Notebooks
 To determine a country's Awp, three modules was developed through Colab notebook containing specific scripts.
