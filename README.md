@@ -90,7 +90,7 @@ Awp can then be calculated by adapting equation 2 (by replacing Va with VETb):
 ## Change and trend in Awp
 The final step is to calculate the change (c) and trend (t) in Awp using the following formulas, based on FAO (2017):
 
-![title](Figures_equations/Eq_6.png)                   #year to year			(7)
+![title](Figures_equations/Eq_6.png)                  #year to year			(7)
 
 ![title](Figures_equations/Eq_7.png)              #start to base year (2015)				(8)
 
