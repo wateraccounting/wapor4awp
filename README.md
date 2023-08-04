@@ -19,8 +19,7 @@ To develop an interactive dashboard to support monitoring Sustainable Developmen
 ## SDG indicator 6.4.1 – Change in Water Use Efficiency
 SDG indicator 6.4.1 tracks the value added in US dollars per volume of water withdrawn. It considers water use by all economic activities aggregated into the three major sectors of agriculture, industry and the service sector. The indicator allows countries to assess to what extent their economic growth depends on the use of their water resources. SDG indicator 6.4.1 is calculated using the following equation (FAO, 2017).
 
-WUE=A_we*P_A+M_we*P_M+S_we*P_S
-![title](Figures_equations/Eq_1.png)(1)
+![title](Figures_equations/Eq_1.png)             (1)
 
 Where:
 
