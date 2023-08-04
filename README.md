@@ -119,6 +119,8 @@ Gillet, V. and Biancalani, R. 2022. Guidelines for calculation of the agricultur
 
 Hellegers P, van Halsema G (2021) SDG indicator 6.4.1 “change in water use efficiency over time”: Methodological flaws and suggestions for improvement. Science of The Total Environment 801: 149431
 
+Safi, C., Pareeth, S., Yalew, S., van der Zaag, P. and Mul, M., 2023. Estimating agricultural water productivity using remote sensing derived data. Modeling Earth Systems and Environment, pp.1-11.
+
 Safi, C., 2022. Monitoring SDG 6.4.1 indicator at national and sub-national scale using open access remote sensing-derived data – case study of Lebanon. MSc thesis IHE Delft institute for water education, Delft, the Netherlands. 
 
 Msigwa, A., Komakech, H. C., Salvadore, E., Seyoum, S., Mul, M. L., & van Griensven, A. (2021). Comparison of blue and green water fluxes for different land use classes in a semi-arid cultivated catchment using remote sensing. Journal of Hydrology: Regional Studies, 36, 100860.
